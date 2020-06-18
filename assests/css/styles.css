@@ -1,0 +1,121 @@
+body {
+    background-color: #99cc00;
+    color: #ffffff;
+    /*make sure you set family and size on body*/
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Typograhpy */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: serif;
+}
+
+h1 {
+    background-color: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px; 
+    
+}
+
+h2 {
+    font-size: 22px; 
+    font-weight: bold; 
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    background-color: blueviolet
+}
+
+h3 {
+    font-size: 22px;
+    
+}
+
+p {
+    font-size: 18px; 
+    line-height: 23px;
+    margin-bottom: 10px
+}
+
+/* anchor styles */ 
+a {
+  color: #ffffff;
+    background-color: black;
+    text-decoration: none;
+  
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+a:visited {
+    color: #cccccc;
+    
+}
+
+a: active {
+    color: red; 
+    
+}
+
+    
+
+/* main containers */
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: coral;
+    height: 200px;
+    padding: 20px;
+}
+
+nav {
+    background-color: beige;  
+
+}
+
+nav ul {
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    background-color: cornsilk; 
+    padding: 10px 15px;  
+    text-transform: uppercase;
+}
+
+
+
+main {
+    background-color: aquamarine; 
+    padding: 20px; 
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+}
+
+footer {
+    background-color: deeppink;
+    padding: 20px; 
+}
