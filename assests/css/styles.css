@@ -71,6 +71,25 @@ h4 {
 
 }
 
+h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #558FB2;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+h6 {
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #558FB2;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
 p {
     font-size: 15px;
     line-height: 20px;
@@ -181,6 +200,7 @@ footer p {
 }
 
 .middle img {
+    width: 700px;
     width: 700px;
 }
 
