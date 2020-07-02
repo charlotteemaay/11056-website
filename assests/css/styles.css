@@ -212,7 +212,17 @@ main img {
     float: left;
     width: 200px;
     max-width: 300px;
+
 }
+
+.4-row {
+    float: left;
+    width: 200px;
+    max-width: 300px;
+
+}
+
+
 
 footer {
     padding: 20px;
@@ -239,7 +249,7 @@ footer p {
 }
 
 .middle img {
-    width: 700px;
+    width: 750px;
 
 }
 
