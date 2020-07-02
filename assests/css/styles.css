@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Slab:wght@300;400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Slab:wght@300;400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@200&display=swap');
+
 
 
 body {
     background-color: #D3E1E4;
     color: #86878D;
     /*make sure you set family and size on body*/
-    font-family: 'Lora', serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
 }
 
@@ -17,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1 {
@@ -96,6 +98,17 @@ p {
     margin-bottom: 20px
 }
 
+main ul {
+    font-size: 15px;
+    margin-bottom: 20px
+}
+
+main ul li {
+    margin-bottom: 10px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
 /* anchor styles */
 a {
     color: #ffffff;
@@ -168,11 +181,37 @@ main {
     overflow: auto;
 }
 
+main img {
+    max-width: 100%;
+}
+
+.columns {
+    clear: both;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.left-column {
+    float: left;
+    width: 45%;
+
+}
+
+.right-column {
+    float: right;
+    width: 45%;
+}
 
 .text-container {
     width: 600px;
     margin: 0 auto;
 
+}
+
+.3-row {
+    float: left;
+    width: 200px;
+    max-width: 300px;
 }
 
 footer {
@@ -201,7 +240,7 @@ footer p {
 
 .middle img {
     width: 700px;
-    width: 700px;
+
 }
 
 .right {
@@ -209,5 +248,13 @@ footer p {
 }
 
 .right img {
+    width: 600px;
+}
+
+.left {
+    text-align: center;
+}
+
+.left img {
     width: 600px;
 }
